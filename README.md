@@ -11,7 +11,7 @@
 
 2. Make the script executable:
    ```bash
-  chmod +x aws_local_config_script
+   chmod +x aws_local_config_script
 
 3. Run script
    ```bash
