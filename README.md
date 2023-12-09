@@ -1,6 +1,6 @@
 **aws_local_config_script**
 
-This bash script facilitates the configuration of AWS CLI named profiles by interactively prompting users for necessary information. It automates the setup process for AWS CLI configuration files, specifically the `~/.aws/config` (for named profiles) and `~/.aws/credentials` (for access keys).
+- This bash script facilitates the configuration of AWS CLI named profiles by interactively prompting users for necessary information. It automates the setup process for AWS CLI configuration files, specifically the `~/.aws/config` (for named profiles) and `~/.aws/credentials` (for access keys).
 
 ### Usage
 
@@ -19,7 +19,8 @@ This bash script facilitates the configuration of AWS CLI named profiles by inte
 ```bash
 ./configure_aws_profile.sh
 ```
-##Instructions
+
+## Instructions
 
     The script prompts for the profile name, AWS access key ID, secret access key, and default region.
     It then adds the necessary configurations to the AWS CLI configuration and credentials files.
