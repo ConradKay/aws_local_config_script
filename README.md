@@ -15,7 +15,7 @@
 
 3. Run script
    ```bash
-   ./configure_aws_profile.sh
+   ./aws_local_config_script.sh
 
 ## Instructions
 - The script prompts for the profile name, AWS access key ID, secret access key, and default region. It then adds the necessary configurations to the AWS CLI configuration and credentials files.
